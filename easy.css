@@ -1,0 +1,38 @@
+.flag{
+    height:550px;
+    width:750px;
+    background-color: red;
+    position: relative;
+    margin:auto;
+}    
+.stripe {
+    background-color: red;
+    width: 100%;
+    height: calc(550px / 13);
+  }
+  .stripe--white {
+    background-color: white;
+  }
+  .star-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: calc((550px / 13) * 9);
+    background-color: #2533f5;
+    padding: 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .stars{
+    font-size: 44px;
+    color: white;
+    display: grid;
+    grid-template-rows: 100%;
+    justify-content: space-between;
+    margin-top: -4px;
+    position:absolute;
+  }
+  
